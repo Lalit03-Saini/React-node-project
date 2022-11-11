@@ -1,0 +1,371 @@
+.gallery {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallerymain {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 70%;
+
+}
+
+.sideone {
+    background-image: url("../img/Road.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 630px;
+}
+
+.qoute {
+    bottom: 15%;
+    color: #fff;
+    font-size: large;
+    left: 10%;
+    position: absolute;
+}
+
+.sidetwo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-left: 5px;
+    width: 380px;
+}
+
+.top {
+    background-image: url("../img/mountain.jpg");
+    height: 147px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.qoutetop {
+    bottom: 15%;
+    color: #fff;
+    font-size: large;
+    left: 10%;
+}
+
+.bottom {
+    background-image: url("../img/lakenature.jpg");
+    height: 147px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 116px;
+    width: 100%;
+}
+
+.qoutebottom {
+    bottom: 15%;
+    color: #fff;
+    font-size: large;
+    left: 10%;
+
+}
+
+.thetitle {
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom: -17px;
+}
+
+.line {
+    background-color: #CF0A0A;
+    border: 2px solid #CF0A0A;
+    margin-left: 6%;
+    width: 54px;
+}
+
+.lastbox {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.article {
+    width: 280px;
+    box-sizing: border-box;
+}
+
+.image {
+    background-image: url("../img/priyankanick.jpg");
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url("../img/morola.webp");
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("../img/salt-shaker.jpg");
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastmain {
+    flex-direction: row;
+    position: relative;
+    width: 85%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.descrip {
+    margin-left: 27%;
+    width: 54%;
+    margin-top: -10%;
+    position: absolute;
+}
+
+.descrip2 {
+    margin-left: 27%;
+    width: 54%;
+    margin-top: -10%;
+    position: absolute;
+}
+
+.lastimg {
+    background-image: url("../img/sea.jfif");
+    height: 140px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastimg1 {
+    background-image: url("../img/whatsapp-ios-update.jpg");
+    height: 140px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastimg2 {
+    background-image: url("../img/thumbnail.jpg");
+    height: 140px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastimg3 {
+    background-image: url("../img/hrithik-roshan.webp");
+    height: 140px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lastimg4 {
+    background-image: url("../img/Tea.jpg");
+    height: 140px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    color: #524e4e;
+    margin-top: 17px;
+    width: 80%;
+    font-size: 16px;
+    margin-right: 10%;
+}
+
+.latestline {
+    height: 1px;
+    background-color: #9b9494;
+    border: 1px solid #a09797;
+}
+
+.lastblock {
+    margin-left: 10%;
+    margin-top: 17px;
+    width: 80%;
+}
+
+.tog {
+    display: none;
+}
+
+.btt {
+    display: none;
+}
+
+#button {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-left: 15%;
+}
+
+#button1 {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.adv {
+    background-image: url("../img/flipkart.png");
+    background-size: cover;
+    border: 1px solid #000;
+    background-color: #fff;
+    height: 450px;
+    line-height: 500px;
+    position: absolute;
+    right: -13%;
+    text-align: center;
+    top: 3%;
+    width: 24%;
+}
+
+.storymain {
+    color: #353434;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.storybox {
+    margin-top: 4%;
+    width: 30%;
+}
+
+.storyline {
+    height: 1px;
+}
+
+@media(max-width: 600px) {
+    .lastbox {
+        display: block;
+    }
+
+    .lastmain {
+        display: block;
+    }
+
+    .storymain {
+        display: block;
+    }
+
+    .storybox {
+        display: block;
+        margin-top: 4%;
+        width: 95%;
+    }
+
+    .lastimg {
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .sideone {
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .top {
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .bottom {
+        height: 300px;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .lastimg {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .line {
+        width: 11%;
+        margin-top: 10px;
+    }
+
+    .lastimg1 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .lastimg2 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h3 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .descrip {
+        margin-left: 37%;
+        width: 56%;
+        font-size: 6px;
+        margin-top: -20%;
+        position: absolute;
+    }
+
+    .date {
+        margin-top: -8px;
+    }
+
+    .descrip2 {
+        margin-left: 37%;
+        width: 55%;
+        font-size: 6px;
+        margin-top: -20%;
+        position: absolute;
+    }
+
+    .lastimg3 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .lastimg4 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .adv {
+        display: none;
+    }
+}

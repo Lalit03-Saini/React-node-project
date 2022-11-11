@@ -1,0 +1,28 @@
+.detailmain {
+    color: #1b1b1b;
+    margin-left: 14%;
+    margin-top: 20px;
+    width: 72%;
+}
+
+.foodimage8 {
+    background-image: url("../../img/salt-shaker.jpg");
+    color: #1b1b1b;
+    height: 386px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 72%;
+}
+
+.homeboxdesctop {
+    line-height: 25px;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 90%;
+}
+
+p {
+    font-weight: 600;
+}

@@ -1,0 +1,295 @@
+.hthetitle {
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.fline {
+    background-color: #CF0A0A;
+    border: 2px solid #CF0A0A;
+    margin-left: 6%;
+    width: 54px;
+    margin-top: -7px;
+}
+
+.flatestmain {
+    flex-direction: row;
+    position: relative;
+    width: 85%;
+}
+
+.flatestblock {
+    margin-left: 10%;
+    margin-top: 17px;
+    width: 80%;
+    color: #524e4e;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin-right: 10%;
+}
+
+.fimagee {
+    background-image: url("../img/ten.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.fimagee1 {
+    background-image: url("../img/ehfc-best.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.fimagee2 {
+    background-image: url("../img/ehfc-best-back.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.fimagee3 {
+    background-image: url("../img/ehfc-best-ab.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+.fimagee4 {
+    background-image: url("../img/how-to-get-started.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.fdescrip {
+    margin-left: 44%;
+    margin-top: -142px;
+    width: 47%;
+}
+
+.fdate {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.flatestline {
+    height: 1px;
+    margin-top: 54px;
+    margin-left: 131px;
+    width: 1012px;
+}
+
+.to{
+    display: none;
+}
+#btn {
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 28px;
+}
+
+.fyside {
+    margin-left: 1200px;
+    margin-top: -62%;
+    width: 200px;
+}
+
+.fstory {
+    border: 2px solid #CF0A0A;
+    background-color: #CF0A0A;
+    margin-top: -3px;
+    width: 44px;
+}
+.ftopstory{
+    color: #504f4f;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 260px;
+}
+.fstoryimge{
+    background-image: url("../img/dance-workouts-to-try-at-hom.jpg");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fstoryimge1{
+    background-image: url("../img/walking.png");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fstoryimge2{
+    background-image: url("../img/cycling.jpg");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fstorydesc{
+    margin-left: 5px;
+    width: 145px;
+}
+.fstoryline{
+    height: 1px;
+    width: 255px;
+}
+.fadvert{
+    background-image: url("../img/flipkart.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -3%;
+    border: 1px solid #000;
+    height: 63vh;
+    line-height: 400px;
+    margin-top: 10px;
+    text-align: center;
+    width: 20vw;
+}
+
+@media(max-width: 600px) {
+    .hhthetitle {
+        font-size: 25px;
+        margin-top: 6px;
+        margin-left: 21px;
+    }
+
+    .line {
+        width: 11%;
+        margin-top: -8px;
+    }
+
+    .flatestmain {
+        display: block;
+        margin-left: -95px;
+    }
+
+    .flatestblock {
+        display: block;
+    }
+
+    .fimagee {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fimagee1 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fimagee2 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fimagee3 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fimagee4 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fdescrip {
+        margin-left: 72%;
+        width: 56%;
+        font-size: 6px;
+        margin-top: -20%;
+        position: absolute;
+    }
+
+    h3 {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .fdate {
+        font-size: 7px;
+    }
+
+    .flatestline {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .ttlatestline {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .fstory{
+        width: 20px;
+    }
+    .fyside {
+        margin-left: 135px;
+        margin-top: 12px;
+        width: 200px;
+    }
+    .ftopstory{
+        width: 100%;
+    }
+    .fstoryimge{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fstoryimge{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fstoryimge1{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fstoryimge2{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fstoryimge3{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fadvert{
+        display: none;
+    }
+}

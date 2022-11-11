@@ -1,0 +1,335 @@
+.heading {
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.btline {
+    background-color: #CF0A0A;
+    border: 2px solid #CF0A0A;
+    margin-left: 6%;
+    width: 4%;
+    margin-top: -2px;
+}
+
+.bbox {
+    box-sizing: border-box;
+}
+
+.blatestmain {
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.blatestblock {
+    margin-left: 15%;
+    margin-top: 17px;
+    width: 80%;
+}
+
+.bimagee {
+    background-image: url("../img/RanveerSingh.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    height: 140px;
+    width: 60%;
+}
+
+.bimagee1 {
+    background-image: url("../img/hrithik-roshan.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    height: 140px;
+    width: 60%;
+}
+
+.bimagee2 {
+    background-image: url("../img/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    height: 140px;
+    width: 60%;
+}
+
+.to {
+    display: none;
+}
+
+.bimagee3 {
+    background-image: url("../img/priyankachoprahaircut.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    height: 140px;
+    width: 60%;
+}
+
+.bimagee4 {
+    background-image: url("../img/Kirti.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    height: 140px;
+    width: 60%;
+}
+
+.bdescrip1 {
+    margin-left: 70%;
+    margin-top: -140px;
+    width: 80%;
+}
+
+.blatestline {
+    margin-left: 23px;
+    margin-top: 30px;
+    width: 775px;
+    height: 1px;
+    background-color: #9b9494;
+    border: 1px solid #a09797;
+}
+
+.blatestline1 {
+    margin-left: 23px;
+    margin-top: 61px;
+    width: 775px;
+    height: 1px;
+    background-color: #9b9494;
+    border: 1px solid #a09797;
+}
+
+.btline1 {
+    background-color: #CF0A0A;
+    border: 2px solid #CF0A0A;
+    margin-left: 1%;
+    width: 35%;
+    margin-top: -2px;
+}
+
+.byside {
+    margin-left: 386px;
+    width: 200px;
+}
+
+.btopstory {
+    color: #504f4f;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 260px;
+}
+
+.bstoryimage {
+    background-image: url("../img/AlluArjun.webp");
+    background-repeat: round;
+    background-size: cover;
+    height: 100px;
+    width: 110px;
+}
+
+.bstoryimage1 {
+    background-image: url("../img/SalmanKhan.avif");
+    background-repeat: round;
+    background-size: cover;
+    height: 100px;
+    width: 110px;
+}
+
+.bstoryimage2 {
+    background-image: url("../img/aliabhatts.png");
+    background-repeat: round;
+    background-size: cover;
+    height: 100px;
+    width: 110px;
+}
+
+.bstorydesc {
+    margin-left: 5px;
+    width: 150px;
+}
+
+.tog1 {
+    display: none;
+}
+
+.bstroyline {
+    height: 1px;
+    border: 1px solid #a7a2a2;
+    margin-top: 10px;
+    width: 260px;
+}
+
+.badvert {
+    background-image: url("../img/flipkart.png");
+    background-size: cover;
+    position: absolute;
+    margin-left: 1176px;
+    border: 1px solid #000;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #000;
+    height: 56vh;
+    line-height: 400px;
+    margin-top: 555px;
+    text-align: center;
+    width: 16vw;
+}
+
+@media(max-width: 600px) {
+    .heading {
+        font-size: 25px;
+        margin-top: 6px;
+        margin-left: 21px;
+    }
+
+    .btline {
+        width: 10%;
+        margin-top: -8px;
+    }
+
+    .blatestmain {
+        display: block;
+        margin-left: -60px;
+    }
+
+    .blatestblock {
+        display: block;
+    }
+
+    .bimagee {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bimagee1 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bimagee2 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bimagee3 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bimagee4 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .blatestline {
+        width: 100%;
+    }
+
+    #button {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 23%;
+    }
+
+    .bimagee3 {
+        height: 65px;
+        width: 54%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .byside {
+        margin-left: 80px;
+        margin-top: 12px;
+        width: 200px;
+    }
+
+    .blatestline1 {
+        margin-left: 23px;
+        width: 100%;
+        margin-top: 8%;
+        height: 1px;
+        background-color: #9b9494;
+        border: 1px solid #a09797;
+    }
+
+    .btline1 {
+        width: 10%;
+        margin-left: 0px;
+        margin-top: -5px;
+    }
+
+    h2 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .bdescrip1 {
+        margin-left: 52%;
+        width: 56%;
+        font-size: 6px;
+        margin-top: -20%;
+        position: absolute;
+    }
+
+    .bstroyline{
+        height: 1px;
+        margin-top: 10px;
+        width: 260px;
+    }
+    .bstoryimage {
+        background-repeat: round;
+        background-size: cover;
+        height: 59px;
+        width: 125px;
+    }
+    .bstoryimage1 {
+        background-repeat: round;
+        background-size: cover;
+        height: 59px;
+        width: 125px;
+    }
+    .bstoryimage2 {
+        background-repeat: round;
+        background-size: cover;
+        height: 59px;
+        width: 125px;
+    }
+    .bstoryimage3 {
+        background-repeat: round;
+        background-size: cover;
+        height: 59px;
+        width: 125px;
+    }
+    .bstorydesc {
+        margin-left: 5px;
+        width: 150px;
+    }
+
+    h4{
+        font-size: 12px;
+    }
+    p{
+        font-size: 8px;
+    }
+    .badvert{
+        display: none;
+    }
+}

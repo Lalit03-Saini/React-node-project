@@ -1,0 +1,257 @@
+.hthetitle {
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.hline {
+    background-color: #CF0A0A;
+    border: 2px solid #CF0A0A;
+    margin-left: 6%;
+    width: 54px;
+    margin-top: -7px;
+}
+
+.hlatestmain {
+    flex-direction: row;
+    position: relative;
+    width: 85%;
+}
+
+.hlatestblock {
+    margin-left: 10%;
+    margin-top: 17px;
+    width: 80%;
+    color: #524e4e;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin-right: 10%;
+}
+
+.himagee {
+    background-image: url("../img/8.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.himagee1 {
+    background-image: url("../img/bob.jpeg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.himagee2 {
+    background-image: url("../img/titanic.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.himagee3 {
+    background-image: url("../img/bonnis.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+.himagee4 {
+    background-image: url("../img/Ironman.webp");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin-left: 131px;
+}
+
+.hdescrip {
+    margin-left: 44%;
+    margin-top: -142px;
+    width: 47%;
+}
+
+.hdate {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.hlatestline {
+    height: 1px;
+    margin-top: 54px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.hhlatestline {
+    height: 1px;
+    margin-top: 32px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.to{
+    display: none;
+}
+#btn {
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 28px;
+}
+
+.hyside {
+    margin-left: 1200px;
+    margin-top: -62%;
+    width: 200px;
+}
+
+.hstory {
+    border: 2px solid #CF0A0A;
+    background-color: #CF0A0A;
+    margin-top: -px;
+    width: 44px;
+}
+.htopstory{
+    color: #504f4f;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 260px;
+}
+.hstoryimge{
+    background-image: url("../img/black\ panther.webp");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hstoryimge1{
+    background-image: url("../img/Avtar.webp");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hstoryimge2{
+    background-image: url("../img/theman.webp");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hstorydesc{
+    margin-left: 5px;
+    width: 145px;
+}
+.hstoryline{
+    height: 1px;
+    width: 255px;
+}
+.hadvert{
+    background-image: url("../img/flipkart.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -3%;
+    border: 1px solid #000;
+    height: 63vh;
+    line-height: 400px;
+    margin-top: 10px;
+    text-align: center;
+    width: 20vw;
+}
+
+@media(max-width: 600px) {
+    .hthetitle{
+        font-size: 25px;
+        margin-top: 6px;
+        margin-left: 21px;
+    }
+    .line{
+        width: 11%;
+        margin-top: -8px;
+    }
+    .hlatestmain {
+        display: block;
+        margin-left: -110px;
+    }
+    .hlatestblock {
+        display: block;
+    }
+    .himagee {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .himagee1 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .himagee2 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .himagee3 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .himagee4 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hdescrip{
+        margin-left: 72%;
+        width: 56%;
+        font-size: 6px;
+        margin-top: -20%;
+        position: absolute;
+    }
+    h3{
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .hdate{
+        font-size: 7px;
+    }
+    .hlatestline {
+        height: 1px;
+        margin-top: 19px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .hhlatestline {
+        height: 1px;
+        margin-top: 40px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    #btn {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 23%;
+    }
+    .hyside {
+        margin-left: 132px;
+        margin-top: 12px;
+        width: 200px;
+    }
+    .hadvert{
+        display: none;
+    } 
+}

@@ -1,0 +1,334 @@
+.fothetitle {
+    font-size: 30px;
+    margin-left: 6%;
+    margin-top: 50px;
+}
+
+.foline {
+    background-color: #CF0A0A;
+    border: 2px solid #CF0A0A;
+    margin-left: 6%;
+    width: 54px;
+    margin-top: -7px;
+}
+.folatestmain{
+    flex-direction: row;
+    position: relative;
+    width: 85%;
+}
+.folatestblock {
+    margin-left: 10%;
+    margin-top: 17px;
+    width: 80%;
+    color: #524e4e;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin-right: 10%;
+}
+.foimage {
+    background-image: url("../img/pickle.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin-left: 131px;
+}
+.foimage1 {
+    background-image: url("../img/daliya.cms");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin-left: 131px;
+}
+.foimage2 {
+    background-image: url("../img/eggs.webp");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin-left: 131px;
+}
+.foimage3 {
+    background-image: url("../img/iStock.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin-left: 131px;
+}
+.foimage4 {
+    background-image: url("../img/garammasalamain.jpg");
+    height: 140px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    margin-left: 131px;
+}
+.fodescrip {
+    margin-left: 41%;
+    margin-top: -139px;
+    width: 47%;
+}
+.fodate {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.folatestline {
+    height: 1px;
+    margin-top: 30px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.folatestline1 {
+    height: 1px;
+    margin-top: 52px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.folatestline2 {
+    height: 1px;
+    margin-top: 77px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.folatestline3 {
+    height: 1px;
+    margin-top: 79px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.folatestline4 {
+    height: 1px;
+    margin-top: 75px;
+    margin-left: 131px;
+    width: 1012px;
+}
+.to{
+    display: none;
+}
+#btn {
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 28px;
+}
+
+.foyside {
+    margin-left: 1200px;
+    margin-top: -69%;
+    width: 200px;
+}
+
+.fostory {
+    border: 2px solid #CF0A0A;
+    background-color: #CF0A0A;
+    margin-top: -3px;
+    width: 44px;
+}
+.fotopstory{
+    color: #504f4f;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 260px;
+}
+.fostoryimge{
+    background-image: url("../img/tea001.webp");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fostoryimge1{
+    background-image: url("../img/Korean.tea.jpg");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fostoryimge2{
+    background-image: url("../img/salt-shaker.jpg");
+    height: 111px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fostorydesc{
+    margin-left: 5px;
+    width: 145px;
+}
+.fostoryline{
+    height: 1px;
+    width: 255px;
+}
+.foadvert{
+    background-image: url("../img/flipkart.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -3%;
+    border: 1px solid #000;
+    height: 63vh;
+    line-height: 400px;
+    margin-top: 10px;
+    text-align: center;
+    width: 20vw;
+}
+
+
+@media(max-width: 600px) {
+    .fothetitle {
+        font-size: 25px;
+        margin-top: 6px;
+        margin-left: 21px;
+    }
+
+    .foline {
+        width: 11%;
+        margin-top: -8px;
+    }
+
+    .folatestmain {
+        display: block;
+        margin-left: -95px;
+    }
+
+    .folatestblock {
+        display: block;
+    }
+
+    .foimage {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .foimage1 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .foimage2 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .foimage3 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .foimage4 {
+        height: 65px;
+        width: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .fodescrip {
+        margin-left: 72%;
+        width: 56%;
+        font-size: 6px;
+        margin-top: -20%;
+        position: absolute;
+    }
+
+    h3 {
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    .fodate {
+        font-size: 7px;
+    }
+
+    .folatestline {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .folatestline1 {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .folatestline2 {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .folatestline3 {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .folatestline4 {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .ttlatestline {
+        height: 1px;
+        margin-top: 27px;
+        margin-left: 131px;
+        width: 283px;
+    }
+    .fostory{
+        width: 20px;
+    }
+    .foyside {
+        margin-left: 135px;
+        margin-top: 12px;
+        width: 200px;
+    }
+    .ftopstory{
+        width: 100%;
+    }
+    .fostoryimge{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fostoryimge{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fostoryimge1{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fostoryimge2{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .fostoryimge3{
+        height: 50px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .foadvert{
+        display: none;
+    }
+}
