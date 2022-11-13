@@ -14,7 +14,6 @@ const Home = () => {
     const btns = () => {
         show ? setshow(false) : setshow(true)
     };
-    console.log(navigator);
 
     // function carousel() {
     //     var i;
