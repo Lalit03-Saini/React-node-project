@@ -1,5 +1,8 @@
 import "./style/home.css";
 import React, { useState } from "react";
+import Road from "./img/Road.jpg";
+import Mountain from "./img/mountain.jpg";
+import Lakha from "./img/lakenature.jpg";
 
 const Home = () => {
     const [toggle, settoggle] = useState(false);
@@ -11,9 +14,19 @@ const Home = () => {
     const btns = () => {
         show ? setshow(false) : setshow(true)
     };
+    console.log(navigator);
 
-
-
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlide");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000);
+    }
     return (
         <>
             <div className="gallery">
