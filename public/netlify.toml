@@ -3,7 +3,7 @@
    publish =  "/build"
    base = "/"
 
-[[redirecte]]
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
