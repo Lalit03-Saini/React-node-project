@@ -5,13 +5,6 @@ const Home = () => {
     const [toggle, settoggle] = useState(false);
     const [show, setshow] = useState(false);
 
-    // const btn = () => {
-    //     toggle ? settoggle(false) : settoggle(true)
-    // };
-    // const btns = () => {
-    //     show ? setshow(false) : setshow(true)
-    // };
-
     return (
         <>
             <div className="gallery">
