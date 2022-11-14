@@ -3,10 +3,6 @@ import "./style/bollywood.css"
 
 const Bollywood = () => {
     const [bolly, setbolly] = useState(false);
-
-    const bit = () => {
-        bolly ? setbolly(false) : setbolly(true)
-    }
     return (
         <>
             <h2 className='heading'>Bollywood</h2>
