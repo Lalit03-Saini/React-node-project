@@ -4,9 +4,6 @@ import React, { useState } from 'react';
 const Fitness = () => {
     const [holly, setholly] = useState(false)
 
-    const btn = () => {
-        holly ? setholly(false) : setholly(true)
-    }
     return (
         <>
             <h2 className="hthetitle">Fitness</h2>

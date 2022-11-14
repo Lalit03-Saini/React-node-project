@@ -4,9 +4,6 @@ import React, { useState } from 'react';
 const Food = () => {
     const [food, setfood] = useState(false)
 
-    const btn = () => {
-        food ? setfood(false) : setfood(true)
-    }
     return (
         <>
             <h2 className="fothetitle">Food</h2>
