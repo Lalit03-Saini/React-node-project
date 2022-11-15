@@ -60,7 +60,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 116px;
+    margin-top: 5px;
     width: 100%;
 }
 
@@ -258,42 +258,60 @@
 }
 
 @media(max-width: 600px) {
-    .gallerymain{
+    .gallerymain {
         display: block;
         margin-left: 0.5%;
         width: 99%;
         overflow: hidden;
+        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
+        animation: changeImage 15s linear infinite;
     }
-    .sideone{
+
+    .sideone {
         width: 100%;
         height: 200px;
         object-fit: contain;
-        box-shadow: rgba(149, 157,165,0.8) 6px 5px 8px;
+        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
+        animation: changeImage 15s linear infinite;
         border-radius: 3px;
-        animation:changeImage 15s linear infinite;
     }
-    .top{
-         width: 100%;
+
+    .top {
+        width: 100%;
         height: 200px;
         object-fit: contain;
-        box-shadow: rgba(149, 157,165,0.8) 6px 5px 8px;
+        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
         border-radius: 3px;
-        animation:changeImage 15s linear infinite; 
+        animation: changeImage 15s linear infinite;
     }
+
+    .bottom {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
+        border-radius: 3px;
+        animation: changeImage 15s linear infinite;
+    }
+
     @keyframes changeImage {
-       25%{
-        background-image: url("../img/mountain.jpg");
-       } 
-       50%{
-        background-image: url("../img/lakenature.jpg");
-       }
-       75%{
-        background-image: url("../img/Road.jpg");
-       }  
+        25% {
+            background-image: url("../img/mountain.jpg")
+        }
+
+        50% {
+            background-image: url("../img/lakenature.jpg")
+        }
+
+        75% {
+            background-image: url("../img/Road.jpg")
+        }
     }
-    .sidetwo{
+
+    .sidetwo {
         display: none;
     }
+
     .lastbox {
         display: block;
     }

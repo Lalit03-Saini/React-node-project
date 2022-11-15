@@ -4,11 +4,16 @@ import React, { useState } from "react";
 const Home = () => {
     const [toggle, settoggle] = useState(false);
     const [show, setshow] = useState(false);
+    // const [home1, setHome] = useState(false);
+
+    // setHome = () => {
+
+    // }
 
     return (
         <>
             <div className="gallery">
-                <div className="gallerymain">
+                <div className="gallerymain" >
                     <a href="./home/home1">
                         <div className="sideone">
                             <div className="qoute">
@@ -20,9 +25,11 @@ const Home = () => {
                     <div className="sidetwo">
                         <div className="top">
                             <a href="./home/home2" style={{ textDecoration: "none" }}>
-                                <div className="qoutetop">
-                                    <h3>The sound cloud you loved</h3>
-                                    <p>Travel/August 21 2017</p>
+                                <div className="top">
+                                    <div className="qoutetop">
+                                        <h3>The sound cloud you loved</h3>
+                                        <p>Travel/August 21 2017</p>
+                                    </div>
                                 </div>
                             </a>
                             <a href="./home/home3" style={{ textDecoration: "none" }}>
