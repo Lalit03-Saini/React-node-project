@@ -258,60 +258,12 @@
 }
 
 @media(max-width: 600px) {
-    .gallerymain {
-        display: block;
-        margin-left: 0.5%;
-        width: 99%;
-        overflow: hidden;
-        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
-        animation: changeImage 15s linear infinite;
-    }
-
-    .sideone {
-        width: 100%;
-        height: 200px;
-        object-fit: contain;
-        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
-        animation: changeImage 15s linear infinite;
-        border-radius: 3px;
-    }
-
-    .top {
-        width: 100%;
-        height: 200px;
-        object-fit: contain;
-        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
-        border-radius: 3px;
-        animation: changeImage 15s linear infinite;
-    }
-
-    .bottom {
-        width: 100%;
-        height: 200px;
-        object-fit: contain;
-        box-shadow: rgba(149, 157, 165, 0.8) 6px 5px 8px;
-        border-radius: 3px;
-        animation: changeImage 15s linear infinite;
-    }
-
-    @keyframes changeImage {
-        25% {
-            background-image: url("../img/mountain.jpg")
-        }
-
-        50% {
-            background-image: url("../img/lakenature.jpg")
-        }
-
-        75% {
-            background-image: url("../img/Road.jpg")
-        }
-    }
-
-    .sidetwo {
+    .gallerymain{
         display: none;
     }
-
+    .sidetwo{
+        display: none;
+    }
     .lastbox {
         display: block;
     }
@@ -323,7 +275,9 @@
     .storymain {
         display: block;
     }
-
+    .thetitle{
+        margin-top: 213px;
+    }
     .storybox {
         display: block;
         margin-top: 4%;

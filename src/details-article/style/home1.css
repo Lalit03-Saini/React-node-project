@@ -1,10 +1,11 @@
-.detailmain{
+.detailmain {
     color: #1b1b1b;
     margin-left: 14%;
     margin-top: 20px;
     width: 72%;
 }
-.homeimage{
+
+.homeimage {
     background-image: url("../../img/Road.jpg");
     color: #1b1b1b;
     height: 386px;
@@ -13,7 +14,8 @@
     background-size: cover;
     width: 72%;
 }
-.homeboxdesctop{
+
+.homeboxdesctop {
     line-height: 25px;
     margin-top: 15px;
     font-size: 15px;
@@ -21,6 +23,18 @@
     width: 90%;
 }
 
-p{
+p {
     font-weight: 600;
+}
+
+@media(max-width: 600px) {
+    .homeimage {
+        background-image: url("../../img/Road.jpg");
+        color: #1b1b1b;
+        height: 120px;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 72%;
+    }
 }

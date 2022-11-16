@@ -1,14 +1,20 @@
 import "./style/home.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import Slider from "./slider"
 
 const Home = () => {
     const [toggle, settoggle] = useState(false);
     const [show, setshow] = useState(false);
-    // const [home1, setHome] = useState(false);
+    // const [Seconds, setSeconds] = useState(0);
 
-    // setHome = () => {
+    
 
-    // }
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //       setSeconds(seconds => seconds + 1);
+    //     }, 1000);
+    //     return () => clearInterval(interval);
+    //   }, []);
 
     return (
         <>
@@ -23,7 +29,7 @@ const Home = () => {
                         </div>
                     </a>
                     <div className="sidetwo">
-                        <div className="top">
+                        <div className="">
                             <a href="./home/home2" style={{ textDecoration: "none" }}>
                                 <div className="top">
                                     <div className="qoutetop">
@@ -43,6 +49,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                < Slider />
                 <div className="thetitle">The Post</div>
                 <hr className="line"></hr>
                 <div className="lastbox">
