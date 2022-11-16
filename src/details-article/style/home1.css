@@ -44,4 +44,11 @@ p {
         background-size: cover;
         width: 90%;
     }
+    .homeboxdesctop {
+        line-height: 25px;
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        width: 90%;
+    }
 }

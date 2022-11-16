@@ -26,3 +26,29 @@
 p {
     font-weight: 600;
 }
+
+@media(max-width: 600px) {
+    .detailmain {
+        color: #1b1b1b;
+        margin-left: 9%;
+        margin-top: 20px;
+        width: 88%;
+    }
+
+    .foodimage7 {
+        background-image: url("../../img/Korean.tea.jpg");
+        color: #1b1b1b;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90%;
+    }
+
+    .homeboxdesctop {
+        line-height: 25px;
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        width: 90%;
+    }
+}
