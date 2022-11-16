@@ -258,12 +258,14 @@
 }
 
 @media(max-width: 600px) {
-    .gallerymain{
+    .gallerymain {
         display: none;
     }
-    .sidetwo{
+
+    .sidetwo {
         display: none;
     }
+
     .lastbox {
         display: block;
     }
@@ -275,9 +277,7 @@
     .storymain {
         display: block;
     }
-    .thetitle{
-        margin-top: 213px;
-    }
+
     .storybox {
         display: block;
         margin-top: 4%;
@@ -353,6 +353,12 @@
         width: 54%;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    #button1 {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 23%;
     }
 
     .adv {

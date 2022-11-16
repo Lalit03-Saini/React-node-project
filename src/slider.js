@@ -10,7 +10,7 @@ const Slider = () => {
     const autoScroll = true;
 
     let sliderInterval;
-    let intervaltime = 5000;
+    let intervaltime = 3000;
 
     const nextSlide = () =>{
         setCurrentSlide( currentSlide === sliderLength -1 ? 0 : currentSlide + 1);

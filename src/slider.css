@@ -1,6 +1,6 @@
 .slider{
     width: 500px;
-    display: block;
+    display: hidden;
     height: 200px;
     position: absolute;
     overflow: hidden;
@@ -11,26 +11,32 @@
     height: 100%;
     transform:translateX(50%);
     transition: all 1s ease;
+    display: hidden;
     box-shadow: rgb(149 157 165 / 80%) 6px 5px 8px;
 }
 .current{
     opacity: 1;
+    display: hidden;
 }
 .qoute1{
     position: absolute;
     color: black;
     top:23rem;
     left: 5rem;
+    display: hidden;
 }
 
 @media(max-width: 600px) {
     .slider{
         width: 500px;
-        display: block;
         height: 200px;
-        position: absolute;
-        margin-top: -202px;
+        position: relative;
+        margin-top: 12px;
+        margin-bottom: -25px;
         overflow: hidden;
+        transition: all 0.5s ease;
+        animation: slide-left 1s ease .5s;
+        animation-fill-mode: forwards;
     }
     .slider img{
         height: 200px;
@@ -41,11 +47,12 @@
     .current{
         opacity: 1;
         display: block;
+
     }
     .qoute1{
         position: absolute;
         color: #ffff;
-        top: 12rem;
-        left: 2rem;
+        top: 9rem;
+        left: 4rem;
     }
 }
