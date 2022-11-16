@@ -1,6 +1,6 @@
 .slider{
     width: 500px;
-    display: hidden;
+    display: hidden !important ;
     height: 200px;
     position: absolute;
     overflow: hidden;
@@ -11,12 +11,12 @@
     height: 100%;
     transform:translateX(50%);
     transition: all 1s ease;
-    display: hidden;
+    display: hidden !important;
     box-shadow: rgb(149 157 165 / 80%) 6px 5px 8px;
 }
 .current{
-    opacity: 1;
-    display: hidden;
+    opacity: 0;
+    display: hidden ;
 }
 .qoute1{
     position: absolute;
