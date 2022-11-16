@@ -1,10 +1,11 @@
-.detailmain{
+.detailmain {
     color: #1b1b1b;
     margin-left: 14%;
     margin-top: 20px;
     width: 72%;
 }
-.technologyimage6{
+
+.technologyimage6 {
     background-image: url("../../img/Sunken.webp");
     color: #1b1b1b;
     height: 386px;
@@ -13,7 +14,8 @@
     background-size: cover;
     width: 72%;
 }
-.homeboxdesctop{
+
+.homeboxdesctop {
     line-height: 25px;
     margin-top: 15px;
     font-size: 15px;
@@ -21,6 +23,32 @@
     width: 90%;
 }
 
-p{
+p {
     font-weight: 600;
+}
+
+@media(max-width: 600px) {
+    .detailmain {
+        color: #1b1b1b;
+        margin-left: 9%;
+        margin-top: 20px;
+        width: 88%;
+    }
+
+    .technologyimage6 {
+        background-image: url("../../img/Sunken.webp");
+        color: #1b1b1b;
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90%;
+    }
+
+    .homeboxdesctop {
+        line-height: 25px;
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        width: 90%;
+    }
 }

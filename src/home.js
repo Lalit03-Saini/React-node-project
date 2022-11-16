@@ -5,16 +5,6 @@ import Slider from "./slider"
 const Home = () => {
     const [toggle, settoggle] = useState(false);
     const [show, setshow] = useState(false);
-    // const [Seconds, setSeconds] = useState(0);
-
-    
-
-    // useEffect(() => {
-    //     const interval = setInterval(() => {
-    //       setSeconds(seconds => seconds + 1);
-    //     }, 1000);
-    //     return () => clearInterval(interval);
-    //   }, []);
 
     return (
         <>
