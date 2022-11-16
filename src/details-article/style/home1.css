@@ -28,13 +28,20 @@ p {
 }
 
 @media(max-width: 600px) {
+    .detailmain {
+        color: #1b1b1b;
+        margin-left: 9%;
+        margin-top: 20px;
+        width: 88%;
+    }
+
     .homeimage {
         background-image: url("../../img/Road.jpg");
         color: #1b1b1b;
-        height: 120px;
+        height: 174px;
         margin-top: 20px;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 72%;
+        width: 90%;
     }
 }
