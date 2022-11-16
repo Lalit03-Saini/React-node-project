@@ -1,5 +1,5 @@
 import "./style/home.css";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Slider from "./slider"
 
 const Home = () => {

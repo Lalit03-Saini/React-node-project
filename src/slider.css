@@ -1,17 +1,12 @@
 .slider {
     width: 500px;
-    display: hidden !important;
     height: 200px;
-    position: absolute;
-    overflow: hidden;
+    opacity: 0;
 }
 
 .top0 {
     width: 100%;
     height: 100%;
-    transition: all 1s ease;
-    display: hidden !important;
-    box-shadow: rgb(149 157 165 / 80%) 6px 5px 8px;
 }
 
 .current {
@@ -29,36 +24,35 @@
 
 @media(max-width: 600px) {
     .slider {
-        width: 95%;
+        width: 100%;
         height: 200px;
+        opacity: 1;
         position: relative;
         margin-top: 12px;
         margin-bottom: -25px;
         overflow: hidden;
-        /* transition: all 0.5s ease;
-        animation: slide-left 1s ease .5s;
-        animation-fill-mode: forwards; */
     }
 
     .slider img {
-        height: 200px;
         border-radius: 5px;
+        border: bottom left radius 5px; ;
         width: 98%;
         overflow: hidden;
-        margin-left: 18px;
-        box-shadow: rgb(149 157 165 / 80%) 6px 5px 8px;
+        margin-left: 2px;
+        
     }
 
     .current {
         opacity: 1;
-        display: block;
+        position: absolute;
+        display: grid;
 
     }
 
     .qoute1 {
         position: absolute;
         color: #ffff;
-        top: 9rem;
-        left: 4rem;
+        top: 11rem;
+        left: 3rem;
     }
 }
