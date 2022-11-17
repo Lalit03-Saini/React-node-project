@@ -11,7 +11,7 @@ const Home = () => {
     useEffect(() => {
         setLoader(true)
         setTimeout(() => {
-            setLoader(false)
+            setLoader(true)
         }, 3000)
     }, [])
 
@@ -21,7 +21,7 @@ const Home = () => {
                 {
                     loader ?
                     <HashLoader  className="Loader"
-                    color="#82CD47"
+                    color="#2146C7"
                     size={70}
                     speedMultiplier={2}
                   />
