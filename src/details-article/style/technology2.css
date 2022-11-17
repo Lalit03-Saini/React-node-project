@@ -36,6 +36,8 @@ p{
     .technologyimage2{
         background-image: url("../../img/LPG.webp");
         color: #1b1b1b;
+        height: 174px;
+        margin-bottom: 12px;
         margin-top: 20px;
         background-repeat: no-repeat;
         background-size: cover;

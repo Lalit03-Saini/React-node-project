@@ -38,6 +38,7 @@ p {
     .hollywoodimage8 {
         background-image: url("../../img/theman.webp");
         height: 174px;
+        margin-bottom: 12px;
         margin-top: 20px;
         background-repeat: no-repeat;
         background-size: cover;

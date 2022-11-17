@@ -36,6 +36,7 @@ p{
     .bollywoodimage2{
         background-image: url("../../img/hrithik-roshan.webp");
         height: 174px;
+        margin-bottom: 12px;
         margin-top: 20px;
         background-repeat: no-repeat;
         background-size: cover;

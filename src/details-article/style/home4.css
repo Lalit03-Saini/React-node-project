@@ -36,6 +36,7 @@ p{
     .homeimage4 {
         background-image: url("../../img/priyankanick.jpg");
         color: #1b1b1b;
+        margin-bottom: 12px;
         height: 174px;
         margin-top: 20px;
         background-repeat: no-repeat;

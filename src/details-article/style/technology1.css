@@ -37,6 +37,8 @@ p{
         background-image: url("../../img/thu.webp");
         color: #1b1b1b;
         margin-top: 20px;
+        height: 174px;
+        margin-bottom: 12px;
         background-repeat: no-repeat;
         background-size: cover;
         width: 90%;
