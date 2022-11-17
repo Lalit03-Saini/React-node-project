@@ -257,7 +257,16 @@
     height: 1px;
 }
 
+.Loader{
+    margin-top: 160px;
+    margin-left: 742px;
+}
+
 @media(max-width: 600px) {
+    .Loader{
+        margin-top: 92px;
+        margin-left: 162px;
+    }
     .gallerymain {
         display: none;
     }
