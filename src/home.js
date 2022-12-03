@@ -1,5 +1,5 @@
 import "./style/home.css";
-import React, { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import HashLoader from "react-spinners/HashLoader"
 import Slider from "./slider"
 import Backend from "./Backend"
